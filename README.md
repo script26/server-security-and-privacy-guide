@@ -22,8 +22,8 @@
   - You need to use Dracut for developing it.
     - You can use EROfs or Squashfs for a read-only root partition, because to use DM-Verity you MUST make it read-only.
     - Unreleated, but you can also use F2fs for fast read-and-writable filesystem on flash storage (Like NVMEs, SSDs, flash drives, sd cards) 
-- DM-Crypt or FSCrypt for granular encryption
-- AppArmor or SELinux for granular access control
+- DM-Crypt (or FSCrypt for more granular encryption)
+- AppArmor (or SELinux for more granular access control)
 
 ---
 
