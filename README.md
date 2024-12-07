@@ -1,3 +1,6 @@
+# Why?
+You possibly have a HomeLab (home servers), you want to protect the services running on them, or you are interested in possibly improving the security and privacy on servers.
+
 ## Linux Specific
 - Setup alpine linux repos with HTTPS instead of the default HTTP.
 
