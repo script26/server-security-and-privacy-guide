@@ -20,8 +20,8 @@
 - Secure Boot (Ensure you boot only signed EFIStubs)
 - DM-Verity for signed root paritition (Similar to Secure Boot, and continue the RoT - Root of Trust)
   - You need to use Dracut for developing it.
-    - You can use EROfs or Squashfs for a readonly root partition, because to use DM-Verity you MUST make it read-only.
-    - Unreleated, but You can also use F2fs for fast read and writable filesystem on flash storage (Like NVMEs, SSDs, flash drives, sd cards) 
+    - You can use EROfs or Squashfs for a read-only root partition, because to use DM-Verity you MUST make it read-only.
+    - Unreleated, but You can also use F2fs for fast read-and-writable filesystem on flash storage (Like NVMEs, SSDs, flash drives, sd cards) 
 - DM-Crypt or FSCrypt for granular encryption
 - AppArmor or SELinux for granular access control
 
