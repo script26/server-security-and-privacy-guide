@@ -1,10 +1,15 @@
+## Linux Specific
 - Setup alpine linux repos with HTTPS instead of the default HTTP.
+
+--
 
 - Hardened Linux Kernel (Minimal Amount of Kernel Modules, Hardened Patch, KConfig modifications)
 - Hardened Malloc (Run through /etc/lib.so.preload)
 - Read Only Partitions (Read only via separated partitions)
 - Minimalize kernel leaks of /proc, /sys (hidepid=2)
 - Sysctl Minimalized Options
+
+--
 
 - Compile by hardened flags/minimal libc (PIE, minimalist Libc)
 - Reduce Attack Surface (Minimalist kernel modules, minimalist root paritition, minimalize things you don't need for your particular server)
