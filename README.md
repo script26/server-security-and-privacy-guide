@@ -19,6 +19,7 @@
 - Minimalist EFI Partition (Only keep just the EFIStub)
 - Secure Boot (Ensure you boot only signed EFIStubs)
 - DM-Verity for signed root paritition (Similar to Secure Boot, and continue the RoT - Root of Trust)
+  - You need to use Dracut for developing it.
 - DM-Crypt or FSCrypt for granular encryption
 - AppArmor or SELinux for granular access control
 
@@ -33,3 +34,8 @@
 ## Usability Removal
 - Disable physical logins
 - Hide all boot information (typical on linux distros, on OpenRC make boot quiet)
+
+---
+
+## Usability Addition
+- Add Clevis + Tang for NBDE (Network Bound Disk Encryption) to manage decryption of servers remotely/easily
