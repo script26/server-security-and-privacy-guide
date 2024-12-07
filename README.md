@@ -35,7 +35,7 @@
 
 ## Usability Removal
 - Disable physical logins
-- Hide all boot information (typical on linux distros, on OpenRC make boot quiet)
+- Hide all boot information (typical on linux distros, on OpenRC make boot quiet via /etc/inittab)
 
 ---
 
