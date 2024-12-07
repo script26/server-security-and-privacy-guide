@@ -27,3 +27,8 @@
 - Minimalize amount of software/amount of services running on server
 - Use minimal init system
 - Sandboxing Applications/Services
+
+---
+
+## Usability Removal
+-- Disable physical logins
