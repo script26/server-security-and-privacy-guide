@@ -22,4 +22,9 @@
 - DM-Crypt or FSCrypt for granular encryption
 - AppArmor or SELinux for granular access control
 
+---
+
+- Minimalize amount of software/amount of services running on server
+- Use minimal init system
+
 - Sandboxing Applications/Services
