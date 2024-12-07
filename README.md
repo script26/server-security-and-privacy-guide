@@ -15,3 +15,5 @@ Secure Boot (Ensure you boot only signed EFIStubs)
 DM-Verity for signed root paritition (Similar to Secure Boot, and continue the RoT - Root of Trust)
 DM-Crypt or FSCrypt for granular encryption
 AppArmor or SELinux for granular access control
+
+Sandboxing Applications/Services
