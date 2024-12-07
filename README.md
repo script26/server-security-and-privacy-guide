@@ -4,7 +4,7 @@
 ---
 
 - Hardened Linux Kernel (Minimal Amount of Kernel Modules, Hardened Patch, KConfig modifications)
-- Hardened Malloc (Run through /etc/ld.so.preload)
+- Hardened Malloc (Run through /etc/ld.so.preload (in musl based distros, use "/usr/lib/libhardened_malloc.so" inside of /etc/ld.so.preload))
 - Read Only Partitions (Read only via separated partitions)
 - Minimalize kernel leaks of /proc, /sys (hidepid=2)
 - Sysctl Minimalized Options
