@@ -24,6 +24,7 @@ Almost all other guides aren't going to give you true security, as they recommen
 
 ## Note for both unikernels and containers
 - You still need a verified/measured boot implementation to stop OS tampering and malware persistance
+- Coreboot is a minimal payload UEFI replacement, unfortunately not common on server hardware
  
 ---
 
