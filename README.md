@@ -5,6 +5,7 @@ You possibly have home servers, you want to protect the services running on them
 ## Use container focused OS's instead of traditional linux
 - They contain an API to setup containers already.
 - They usually disallow host shell access (no SSH, unless it's for a container).
+- They usually have a MAC already setup and enforced
 - They have extremely minimalist, no debug tools preinstalled for the host (bottlerocket)
 - Uses memory safe languages (bottlerocket)
 - Kubernetes supported
