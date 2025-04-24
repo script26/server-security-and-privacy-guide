@@ -12,6 +12,7 @@ You possibly have a HomeLab (home servers), you want to protect the services run
 - Or as guidance you can use distroless as a build stage in your dockerfile builds
 - Possibly try out GVisor
 - Production made OS ready for use
+- Usually runs on hypervisor as well (or baremetal)
 
 ## Or use a hypervisor with unikernels
 - Instead of containers, you would just run the bare app on a VM, from the hypervisor
@@ -24,6 +25,7 @@ You possibly have a HomeLab (home servers), you want to protect the services run
 
 ## If you must anyway, here's a traditional linux server setup
 - Setup linux repos with HTTPS instead of HTTP.
+- Usually runs on hypervisor as well (or baremetal)
 
 #### Kernel and procsys changes
 - Hardened Linux Kernel (Minimal Amount of Kernel Modules, Hardened Patch, KConfig modifications)
