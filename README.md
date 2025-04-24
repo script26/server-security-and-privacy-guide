@@ -13,7 +13,7 @@ You possibly have a HomeLab (home servers), you want to protect the services run
 - Possibly try out GVisor
 - Production made OS ready for use
 
-## Or use hypervisors with unikernels
+## Or use a hypervisor with unikernels
 - Instead of containers, you would just run the bare app on a VM, from the hypervisor
 - Allows for custom compiled kernels for each unikernel
 
