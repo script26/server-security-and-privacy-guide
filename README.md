@@ -36,6 +36,7 @@ Almost all other guides aren't going to give you true security, as they recommen
 - Hardened Linux Kernel (Minimal Amount of Kernel Modules, Hardened Patch, KConfig modifications)
 - Hardened Malloc (Run through /etc/ld.so.preload (in musl based distros, use "/usr/lib/libhardened_malloc.so" inside of /etc/ld.so.preload)) (Inspired by GrapheneOS)
 - Read Only Partitions (Read only and separated partitions)
+- Compile kernel with Address-space layout randomization (ASLR)
 - Minimalize kernel leaks of /proc, /sys (hidepid=2)
 - Sysctl Minimalized Options
 
