@@ -1,5 +1,6 @@
 # Why?
 You possibly have home servers, you want to protect the services running on them, or you are interested in possibly improving the security and privacy on servers. (This doesn't account for networking security, this is only software security for servers)
+Almost all other guides aren't going to give you true security, as they recommend a traditional linux setup. I recommend using container focused OS as it's already hardened and host OS is minimalized to only what is needed for core functions to work.
 
 
 ## Use container focused OS's instead of traditional linux
