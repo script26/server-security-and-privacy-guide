@@ -10,11 +10,15 @@ You possibly have a HomeLab (home servers), you want to protect the services run
 - Kubernetes supported
 - Build containers by docker from scratch, to hold only the application needed to run, DO NOT put in debugging tools
 - Or as guidance you can use distroless as a build stage in your dockerfile builds
+- Possibly try out GVisor
 
 ## Or use hypervisors with unikernels
 - Instead of containers, you would just run the bare app on a VM, from the hypervisor
 - Allows for custom compiled kernels for each unikernel
 
+## Note for both unikernels and containers
+- You still need a verified/measured boot implementation to stop OS tampering and malware persistance
+ 
 ---
 
 ## If you must anyway, here's a traditional linux server setup
