@@ -25,7 +25,7 @@ You possibly have home servers, you want to protect the services running on them
  
 ---
 
-## If you must anyway, here's a traditional linux server setup
+## If you must anyway, here's a traditional linux server setup (not recommended, unless it's from a hosting service and it's your only choice)
 - Setup linux repos with HTTPS instead of HTTP.
 - Usually runs on hypervisor as well (or baremetal)
 
