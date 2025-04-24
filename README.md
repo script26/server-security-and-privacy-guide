@@ -8,6 +8,8 @@ You possibly have a HomeLab (home servers), you want to protect the services run
 - They have extremely minimalist, no debug tools preinstalled for the host (bottlerocket)
 - Uses memory safe languages (bottlerocket)
 - Kubernetes supported
+- Build containers by docker from scratch, to hold only the application needed to run, DO NOT put in debugging tools
+- Or as guidance you can use distroless as a build stage in your dockerfile builds
 
 ## Or use hypervisors with unikernels
 - Instead of containers, you would just run the bare app on a VM, from the hypervisor
