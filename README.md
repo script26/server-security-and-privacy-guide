@@ -40,7 +40,7 @@ Almost all other guides aren't going to give you true security, as they recommen
 
 #### Programs, usage and compilation changes
 - Compile by hardened flags/minimal libc (PIE, minimalist Libc)
-- Reduce Attack Surface (Minimalist kernel modules, minimalist root paritition, minimalize debug tools)
+- Reduce Attack Surface (Minimalist kernel modules, minimalist root paritition, no debug tools)
 - Reduce Root Access (or even better, NEVER use it)
 - Disable Root Account
 - Reduce Processes Running as Root
