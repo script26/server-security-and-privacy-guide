@@ -6,6 +6,7 @@ You possibly have home servers, you want to protect the services running on them
 - They contain an API to setup containers already.
 - They usually disallow host shell access (no SSH, unless it's for a container).
 - They usually have a MAC already setup and enforced
+- Way more specialized use case, thus easier to secure (similar to embedded system vs general-purpose system)
 - They have extremely minimalist, no debug tools preinstalled for the host (bottlerocket)
 - Uses memory safe languages (bottlerocket)
 - Kubernetes supported
