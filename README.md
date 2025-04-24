@@ -17,6 +17,7 @@ Almost all other guides aren't going to give you true security, as they recommen
 - Possibly try out GVisor
 - Production made OS ready for use
 - Usually runs on hypervisor as well (or baremetal)
+- With docker, you can specify it to run as read-only, disable executability on specific places 
 
 ## Or use a hypervisor with unikernels
 - Instead of containers, you would just run the bare app on a VM, from the hypervisor
