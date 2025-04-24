@@ -56,7 +56,8 @@ Almost all other guides aren't going to give you true security, as they recommen
 
 #### Minimalization
 - Minimalize amount of software/amount of services running on server
-- Sandboxing Applications/Services (gvisor)
+- Use Docker to isolate services
+- Use GVisor to further isolate services by sandboxing
 
 #### Usability Removal
 - Disable physical logins
