@@ -1,5 +1,5 @@
 # Why?
-You possibly have home servers, you want to protect the services running on them, or you are interested in possibly improving the security and privacy on servers.
+You possibly have home servers, you want to protect the services running on them, or you are interested in possibly improving the security and privacy on servers. (This doesn't account for networking security, this is only software and hardware security for servers)
 
 
 ## Use container focused OS's instead of traditional linux
