@@ -42,6 +42,7 @@ Almost all other guides aren't going to give you true security, as they recommen
 - Compile by hardened flags/minimal libc (PIE, minimalist Libc)
 - Reduce Attack Surface (Minimalist kernel modules, minimalist root paritition, no debug tools)
 - Reduce Root Access (or even better, NEVER use it)
+- Readonly and disable executability wherever possible
 - Disable Root Account
 - Reduce Processes Running as Root
 - Minimalist bootloaders
