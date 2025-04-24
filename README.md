@@ -1,5 +1,5 @@
 # Why?
-You possibly have a HomeLab (home servers), you want to protect the services running on them, or you are interested in possibly improving the security and privacy on servers.
+You possibly have home servers, you want to protect the services running on them, or you are interested in possibly improving the security and privacy on servers.
 
 
 ## Use container focused OS's instead of traditional linux
